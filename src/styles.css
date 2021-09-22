@@ -206,3 +206,159 @@ pointer-events: none;
     transform: scale(1.5);
     margin-left: 50px;
 }
+
+/********************************** FOOTER STYLING STARTS FROM HERE *******************************/
+
+.footer{
+  position: absolute;
+  height: 429px;
+  left: 0%;
+  right: 0%;
+  top: 4824px;
+  background: #2D3E50;
+}
+#about{
+  position: absolute;
+  left: 103.42px;
+  top: 57.92px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#quick{
+  position: absolute;
+  left: 480px;
+  top: 57.92px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#feature{
+  position: absolute;
+  left: 730px;
+  top: 57.92px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#link-1{
+  position: absolute;
+  top: 99px;
+  left: 480px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #EEEEEE;
+  list-style: none;
+  text-decoration: none;
+}
+#link-2{
+  position: absolute;
+  top: 99px;
+  left: 730px;
+  height: 24px;
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  color: #EEEEEE;   
+  font-weight: 500;
+  font-size: 13px;
+}
+#footer_about{
+  position: absolute;
+  width: 251px;
+  left: 102px;
+  top: 104px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  color: #D5D5D5;
+}
+#tweet{
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 108px;
+  top: 248px;
+}
+#link{
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  left: 146.83px;
+  top: 247px;
+}
+#fb{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 188.97px;
+  top: 248px;
+}
+#insta{
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 226.1px;
+  top: 248px;
+}
+#call{
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 268.24px;
+  top: 248px;
+}
+#team{
+  position: absolute;
+  left: 540px;
+  top: 370px;
+  font-size: 20px;
+  color: #E5E5E5;
+}
+#logo{
+  position: absolute;
+  width: 300px;
+  height: 90px;
+  left: 925px;
+  top: 58px;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+#diamond{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 925px;
+  top: 190px;
+  border-right: 1px solid white;
+  padding-right: 6px ;
+}
+#sac{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 1020px;
+  top: 190px;
+  font-size: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  border-right: 1px solid  white;
+  padding-right: 8px ;
+  
+}
+#nit{
+  position: absolute;
+  width: 82.49px;
+  height: 86.61px;
+  left: 1135px;
+  top: 185px;
+}
+#about,#footer_about,#link-1 li,#link-2 li,#team{
+  font-family: 'Montserrat', sans-serif;
+}
+#link-1 li , #link-2 li{
+  padding-bottom: 12px ;
+}
