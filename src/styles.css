@@ -1,1 +1,120 @@
-/*this is CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden !important;
+  }
+  #section1{
+    height: 100vh;
+    width: 100%;
+    background: rebeccapurple;
+    position: relative;
+  }
+  #section1 .top-bar{
+      width: 100%;
+      height: 35px;
+      background: #2D3E50;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  #section1 .top-bar a{
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+  }
+  /*************************navbar styling **********************/
+.navbar{
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35px;
+    z-index: 99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.nav-item{
+    padding: 0px 15px 0px 15px;
+    font-size: 18px;
+    
+}
+.nav-item a{
+  font-family: Playfair Display;
+  text-align: center;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.navbar-toggler-icon{
+    z-index: 10;
+}
+.navbar2{
+  height: 70px !important;
+  
+}
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ width: 231px;
+ min-height: calc(100vh - 114px);
+ /* min-height: 1349px; */
+ left: 0px;
+ top: 114px;
+ background: #FFFFFF;
+ /* z-index: 1; */
+ box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+ }
+ #sidebar-wrapper::-webkit-scrollbar
+  {
+    width: 5px;
+    background: transparent;
+  }
+ #sidebar-wrapper::-webkit-scrollbar-thumb
+  {
+   border-radius: 0;
+   background-color: #0CA678;
+  }
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+/*************************navbar styling **********************/
