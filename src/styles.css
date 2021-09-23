@@ -195,6 +195,7 @@ pointer-events: none;
 #section2{
     height: 100vh;
     width: 100%;
+    
 }
 .swiper-button-next{
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTgiIGhlaWdodD0iNTgiIHZpZXdCb3g9IjAgMCA1OCA1OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01NC4zNzUgMjlDNTQuMzc1IDIyLjI3MDEgNTEuNzAxNiAxNS44MTU5IDQ2Ljk0MjggMTEuMDU3MkM0Mi4xODQxIDYuMjk4NDMgMzUuNzI5OSAzLjYyNSAyOSAzLjYyNDk5QzIyLjI3MDEgMy42MjQ5OSAxNS44MTU5IDYuMjk4NDIgMTEuMDU3MiAxMS4wNTcyQzYuMjk4NDQgMTUuODE1OSAzLjYyNTAxIDIyLjI3MDEgMy42MjUwMSAyOUMzLjYyNSAzNS43Mjk5IDYuMjk4NDMgNDIuMTg0MSAxMS4wNTcyIDQ2Ljk0MjhDMTUuODE1OSA1MS43MDE2IDIyLjI3MDEgNTQuMzc1IDI5IDU0LjM3NUMzNS43Mjk5IDU0LjM3NSA0Mi4xODQxIDUxLjcwMTYgNDYuOTQyOCA0Ni45NDI4QzUxLjcwMTYgNDIuMTg0MSA1NC4zNzUgMzUuNzI5OSA1NC4zNzUgMjlaTTUuMDcwNTJlLTA2IDI5QzYuNDE1MzFlLTA2IDIxLjMwODcgMy4wNTUzNiAxMy45MzI0IDguNDkzOTEgOC40OTM4OUMxMy45MzI1IDMuMDU1MzQgMjEuMzA4NyAtNi40MTUzMWUtMDYgMjkgLTUuMDcwNTJlLTA2QzM2LjY5MTMgLTMuNzI1NzRlLTA2IDQ0LjA2NzYgMy4wNTUzNSA0OS41MDYxIDguNDkzOUM1NC45NDQ3IDEzLjkzMjUgNTggMjEuMzA4NyA1OCAyOUM1OCAzNi42OTEzIDU0Ljk0NDcgNDQuMDY3NSA0OS41MDYxIDQ5LjUwNjFDNDQuMDY3NSA1NC45NDQ2IDM2LjY5MTMgNTggMjkgNThDMjEuMzA4NyA1OCAxMy45MzI1IDU0Ljk0NDYgOC40OTM5IDQ5LjUwNjFDMy4wNTUzNSA0NC4wNjc1IDMuNzI1NzRlLTA2IDM2LjY5MTMgNS4wNzA1MmUtMDYgMjlaTTE2LjMxMjUgMzAuODEyNUMxNS44MzE4IDMwLjgxMjUgMTUuMzcwOCAzMC42MjE1IDE1LjAzMDkgMzAuMjgxNkMxNC42OTEgMjkuOTQxNyAxNC41IDI5LjQ4MDcgMTQuNSAyOUMxNC41IDI4LjUxOTMgMTQuNjkxIDI4LjA1ODMgMTUuMDMwOSAyNy43MTg0QzE1LjM3MDggMjcuMzc4NSAxNS44MzE4IDI3LjE4NzUgMTYuMzEyNSAyNy4xODc1TDM3LjMxMjEgMjcuMTg3NUwyOS41MjkzIDE5LjQwODJDMjkuMzYwNyAxOS4yMzk3IDI5LjIyNzEgMTkuMDM5NyAyOS4xMzU5IDE4LjgxOTVDMjkuMDQ0NyAxOC41OTkzIDI4Ljk5NzcgMTguMzYzMyAyOC45OTc3IDE4LjEyNUMyOC45OTc3IDE3Ljg4NjcgMjkuMDQ0NyAxNy42NTA3IDI5LjEzNTkgMTcuNDMwNUMyOS4yMjcxIDE3LjIxMDMgMjkuMzYwNyAxNy4wMTAzIDI5LjUyOTMgMTYuODQxN0MyOS42OTc4IDE2LjY3MzIgMjkuODk3OCAxNi41Mzk1IDMwLjExOCAxNi40NDgzQzMwLjMzODIgMTYuMzU3MSAzMC41NzQyIDE2LjMxMDIgMzAuODEyNSAxNi4zMTAyQzMxLjA1MDggMTYuMzEwMiAzMS4yODY4IDE2LjM1NzEgMzEuNTA3IDE2LjQ0ODNDMzEuNzI3MiAxNi41Mzk2IDMxLjkyNzIgMTYuNjczMiAzMi4wOTU4IDE2Ljg0MTdMNDIuOTcwOCAyNy43MTY3QzQzLjEzOTUgMjcuODg1MSA0My4yNzM1IDI4LjA4NTEgNDMuMzY0OCAyOC4zMDUzQzQzLjQ1NjIgMjguNTI1NSA0My41MDMyIDI4Ljc2MTYgNDMuNTAzMiAyOUM0My41MDMyIDI5LjIzODQgNDMuNDU2MiAyOS40NzQ1IDQzLjM2NDggMjkuNjk0N0M0My4yNzM1IDI5LjkxNDkgNDMuMTM5NSAzMC4xMTQ5IDQyLjk3MDggMzAuMjgzMkwzMi4wOTU4IDQxLjE1ODJDMzEuNzU1NCA0MS40OTg2IDMxLjI5MzggNDEuNjg5OCAzMC44MTI1IDQxLjY4OThDMzAuMzMxMiA0MS42ODk4IDI5Ljg2OTYgNDEuNDk4NiAyOS41MjkzIDQxLjE1ODJDMjkuMTg4OSA0MC44MTc5IDI4Ljk5NzcgNDAuMzU2MyAyOC45OTc3IDM5Ljg3NUMyOC45OTc3IDM5LjM5MzcgMjkuMTg4OSAzOC45MzIxIDI5LjUyOTMgMzguNTkxN0wzNy4zMTIxIDMwLjgxMjVMMTYuMzEyNSAzMC44MTI1WiIgZmlsbD0iIzFDRDFBRSIvPgo8L3N2Zz4K) !important;
@@ -206,6 +207,101 @@ pointer-events: none;
     transform: scale(1.5);
     margin-left: 50px;
 }
+
+.people{
+  position: absolute;
+width: 566.44px;
+height: 465px;
+left: 100.6px;
+top: 839px;
+
+background: url(image.png);
+}
+
+/* .vector1{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+} */
+
+#section3 .container-fluid{
+  position: absolute;
+width: 1542.5px;
+height: 828.59px;
+left: 1341.5px;
+top: 1240px;
+  background-color: #FFFFFF;
+}
+
+#section3 .mission-class{
+  position: absolute;
+width: 1642.5px;
+height: 0px;
+left:0px;
+top: 1240px;
+/* background: linear-gradient(274.76deg, #2D3E50 46.5%, rgba(45, 62, 80, 0.6) 97.08%);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+background-color: #FFFFFF;
+}
+
+#section3 .curveonheader{
+  width: 1642px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+#section3 .mission-class{
+  background: linear-gradient(274.76deg, #2D3E50 46.5%, rgba(45, 62, 80, 0.6) 97.08%);
+
+}
+#section3 .mission-image{
+  position: absolute;
+  width: 1442.5px;
+  height: 828.59px;
+  left: 53.5px;
+  top: 433px;
+  
+  background: url(image.png);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#section3 .wel-left{
+  position: absolute;
+width: 488px;
+height: 59px;
+left: 100px;
+top: 1560px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+text-align: justify;
+  color: #38c4aa !important;
+}
+
+#section3 .heading-left{
+  position: absolute;
+width: 688px;
+height: 248px;
+left: 100px;
+top: 1693px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #DDDDDD;
+}
+
 
 /********************************** FOOTER STYLING STARTS FROM HERE *******************************/
 
@@ -362,3 +458,4 @@ a{
 #link-1 li , #link-2 li{
   padding-bottom: 12px ;
 }
+
