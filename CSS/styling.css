@@ -1,0 +1,138 @@
+h1{
+  position: absolute;
+  width: 305px;
+  height: 59px;
+  left: 567px;
+  top: 2143px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: justify;
+
+  color: #2D3E50;
+}
+.fol_FB{
+  position: absolute;
+width: 276px;
+height: 44px;
+left: 193px;
+top: 2258px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+
+text-align: justify;
+
+color: #1ED1B1;
+
+}
+.fol_INSTA{
+  position: absolute;
+width: 276px;
+height: 44px;
+left: 969px;
+top: 2258px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #1ED1B1;
+}
+.fol_TWIT{
+  position: absolute;
+width: 276px;
+height: 44px;
+left: 581px;
+top: 2258px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #1ED1B1;
+
+}
+
+.FB{
+  position: absolute;
+width: 93px;
+height: 22px;
+left: 283px;
+top: 2324px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+text-align: justify;
+
+color: #2D3E50;
+
+}
+.insta{
+  position: absolute;
+  width: 98px;
+  height: 22px;
+  left: 1056px;
+  top: 2324px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #2D3E50;
+}
+.twit{
+  position: absolute;
+width: 68px;
+height: 22px;
+left: 678px;
+top: 2324px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #2D3E50;
+}
+.REACH{
+  display: flex;
+}
+.facebook{
+  flex:1;
+}
+.instagram{
+  flex:1;
+}
+.twitter{
+  flex:1;
+}
