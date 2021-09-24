@@ -1,1 +1,90 @@
 /*this is CSS*/
+
+
+
+
+
+
+
+/* ***** Friday Facts Starts ***** */
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .FridayFacts {
+        height: 100vh;
+        /* height: auto; */
+        width: 100%;
+        background: rgba(45, 62, 80, 0.85);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vector2 {
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.7));
+        transform: rotate(180deg);
+    }
+
+    .vector1 {
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+    }
+
+    .bgImg {
+        position: absolute;
+        height: 100vh;
+        /* height: auto; */
+        width: 100%;
+        top: 0%;
+        z-index: -1;
+    }
+
+    .FridayFacts .content {
+        position: absolute;
+        text-align: center;
+        /* padding: 4rem 7rem; */
+    }
+
+    .FridayFacts .content h1 {
+        font-weight: 600;
+        font-size: 2.6rem;
+        color: #1EE7C3;
+    }
+
+    .FridayFacts .content h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+
+    .FridayFacts .content p {
+        font-size: 1.4rem;
+        text-align: justify;
+        color: #DDDDDD;
+    }
+
+
+
+    /* *********** Media Queries ************* */
+
+    @media(max-width: 768px) {
+
+        html {
+            font-size: 80%;
+        }
+    }
+
+/* ***** Friday Facts Ends ***** */
