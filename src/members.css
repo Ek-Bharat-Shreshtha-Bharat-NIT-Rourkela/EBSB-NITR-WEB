@@ -1,0 +1,220 @@
+
+
+/* single card styling starts */
+.card_1{
+    margin-top: -120px;
+}
+
+
+.profile-card-4 {
+   background-color: #FFF;
+   box-shadow: 0px 0px 20px 0px rgba(3, 14, 104,.2);
+   overflow: hidden;
+   position: relative;
+   margin: 90px auto;
+   cursor: pointer;
+   width: 255px;
+   height: 317px;
+   transform: scale(0.9);
+}
+.card-img{
+   height: 188px;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+.cover-grad{
+   width: 100%;
+   height: 188px;
+   position: absolute;
+   top:0;
+   left: 0;
+   background: linear-gradient(90deg, #08254F 4.12%, rgba(8, 37, 79, 0.2) 26.25%, rgba(8, 37, 79, 0.29) 77.66%, #08254F 99.5%);
+
+}
+.profile-card-4 img {
+   transition: all 0.25s linear;
+   height: 188px;
+   /* width: 100%; */
+   transform: scale(1.1);
+}
+.profile-card-4:hover img {
+   transform: rotate(5deg) scale(1.2, 1.2);
+   filter: brightness(110%);
+}
+.icons-fa{
+   padding: 15px;
+   padding-bottom: ;
+   position: relative;
+   top: -15px;
+   font-size: 19px;
+   color: #08254F;
+
+
+}
+.icons-fa .fa {
+   padding: 5px;
+}
+.icons-fa .fa:hover {
+   color: rgb(52, 127, 233);
+}
+
+.profile-card-4 .profile-content {
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 14px;
+   position: relative;
+   padding: 25px;
+   background-color: rgb(255, 255, 255);
+}
+.profile-name1{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 22px;
+   color: #08254F;
+   line-height: 31px;
+   margin-top: -25px;
+   position: relative;
+   z-index: 1;
+}
+.profile-name1 p{
+   font-size: 14px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.4)
+}
+
+
+.profile-card-4 .profile-content::before {
+   content: "";
+   position: absolute;
+   height: 40px;
+   top: -20px;
+   left: 0px;
+   right: 0px;
+   background-color: rgb(255, 255, 255);
+   z-index: 0;
+   transform: skewY(6deg);
+}
+
+
+/* single card styling ends */
+
+
+
+/* section2 ends from here */
+/* section3 starts here */
+.sec3 {
+   overflow-x: hidden !important;
+
+}
+
+.sec3_heading{
+   font-family: Montserrat;
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0.224px;
+   margin-top: 100px !important;
+   margin-bottom: 150px;
+   position: relative;
+   color: rgba(8, 37, 79, 1) !important;
+}
+.sec3_heading::after{
+   position: absolute;
+   content: " ";
+   width: 378px;
+   height: 3px;
+   background-color: rgba(8, 37, 79, 1);
+   left: 50%;
+   transform: translate(-50%,0);
+   bottom: -250%;
+}
+/* section3 starts here */
+.inside_sec3 .row2, .inside_sec3 .row3,.inside_sec3 .row4,.inside_sec3 .row5 {
+   margin-top: -120px !important;
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .sec3_heading {
+        font-size: 40px;
+    }
+    .sec3_heading::after{
+        width: 350px;
+        bottom: -250%;
+    }
+    .section1 .nav ul li a{
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+    .footer1 .footer12 p {
+        font-size: 16px;
+    }
+    .profile-card-4 {
+        transform: scale(.6);
+        margin-left: -20px;
+       }
+       .sec3 .card_1{
+        padding-left: 0px !important;
+        margin-left: -27px !important;
+        margin-top: -270px;
+    }
+    .sec3_heading{
+        margin-bottom: 250px;
+    }
+    
+   }
+
+   @media(max-width: 426px){
+
+
+    .sec3_heading {
+        font-size: 22px;
+    }
+    .sec3_heading::after{
+        width: 250px;
+        bottom: -150%;
+        height: 2px;
+    }
+    .first_sec .profile-card-4{
+        transform: scale(.9) !important;
+        margin-top: ;
+    }
+    .profile-card-4 {
+    transform: scale(.6);
+    }
+     .sec3_heading{
+         margin-bottom: 200px;
+     }
+     .sec3 .card_1{
+         padding-left: 18px !important;
+         /* margin-left: 10px !important; */
+         margin-top: -270px;
+     }
+   }
+   @media(max-width: 376px){
+       .card_1{
+           padding-left: 0px !important;
+       }
+       .sec3 .card_1{
+        margin-left: -40px !important;
+        padding-left: 20px !important;
+
+    }
+
+   }
+   @media(max-width: 321px){
+    
+    .sec3 .card_1{
+     padding-left: 8px !important;
+
+ }
+ .sec3 .card_1 {
+     transform: scale(.9);
+ }
+
+}
+
