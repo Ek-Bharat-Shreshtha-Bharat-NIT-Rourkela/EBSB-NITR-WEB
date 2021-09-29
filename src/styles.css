@@ -302,162 +302,104 @@ line-height: 29px;
 color: #DDDDDD;
 }
 
+/* ***************footer starts here*************** */
 
-/********************************** FOOTER STYLING STARTS FROM HERE *******************************/
+/* footer starts here */
+.footer-lp{
+  background-color: #1f2b38 !important;
+}
+.footer-lp .footer-content{
+  padding: 79.39px 0 44.61px 21.57px;
+  position: relative;
+}
+.footer-lp .footer-content h2{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(233, 233, 233);
+  line-height: 15px;
+  padding-left: 5px;
+}
+  .footer-lp .footer-content p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 22.31px;
+  }
+  .footer-lp .content-1{
+    /* padding-right: 152.07px !important; */
+  }
+  .footer-lp .content-1 .list-content{
+    float: left;
+    padding-top: 22.31px;
+  }
+  .footer-lp .footer-content ul{
+    padding-top: 22.31px !important;
+  }
+  .footer-lp .footer-content ul a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-weight: 200;
+  }
+  .footer-lp .content-3 ul a,  .footer-lp .content-4 ul a{
+    padding-left: 10px !important;
 
-.footer{
-  position: absolute;
-  height: 429px;
-  left: 0%;
-  right: 0%;
-  top: 4824px;
-  background: #2D3E50;
+  }
+  .footer-lp .footer-content a:hover{
+    /* color: rgba(1, 126, 116, 1); */
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+  }
+ 
+  .footer-lp .last-footer2 p{
+    font-family: Montserrat;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 200;
+  }
+  .footer-lp .last-footer2{
+    position: relative;
+  }
+  .footer-lp .last-footer2:before{
+    position: absolute;
+    content: " ";
+    left: 8.3%;
+    top: -10px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.527);
+    height: 0.5px;
+  }
+.content-1 i.fa, .soci_wrap i.fa{
+    display: inline-block !important;
+    border-radius: 60px;
+    border: .3px solid white;
+    padding: 0.5em 0.6em;
+  }
+.footer-content.content-4 img{
+  width: 90%;
+
 }
-#about{
-  position: absolute;
-  left: 103.42px;
-  top: 57.92px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #FFFFFF;
+.footer-content.content-4 hr{
+  width: 90%;
+  height: 0.2px;
+  background-color: white;
 }
-#quick{
-  position: absolute;
-  left: 480px;
-  top: 57.92px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #FFFFFF;
+.padd-ryt{
+  padding-right: 7px;
+  color: rgb(224, 224, 224);
 }
-#feature{
-  position: absolute;
-  left: 730px;
-  top: 57.92px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-#link-1{
-  position: absolute;
-  top: 99px;
-  left: 480px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 13px;
-  color: #EEEEEE;
-  list-style: none;
-  text-decoration: none;
-}
-#link-2{
-  position: absolute;
-  top: 99px;
-  left: 730px;
-  height: 24px;
-  list-style: none;
-  text-decoration: none;
-}
-a{
-  color: #EEEEEE;   
-  font-weight: 500;
-  font-size: 13px;
-}
-#footer_about{
-  position: absolute;
-  width: 251px;
-  left: 102px;
-  top: 104px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: justify;
-  color: #D5D5D5;
-}
-#tweet{
-  position: absolute;
-  width: 18px;
-  height: 17px;
-  left: 108px;
-  top: 248px;
-}
-#link{
-  position: absolute;
-  width: 17px;
-  height: 15px;
-  left: 146.83px;
-  top: 247px;
-}
-#fb{
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  left: 188.97px;
-  top: 248px;
-}
-#insta{
-  position: absolute;
-  width: 18px;
-  height: 17px;
-  left: 226.1px;
-  top: 248px;
-}
-#call{
-  position: absolute;
-  width: 18px;
-  height: 17px;
-  left: 268.24px;
-  top: 248px;
-}
-#team{
-  position: absolute;
-  left: 540px;
-  top: 370px;
-  font-size: 20px;
-  color: #E5E5E5;
-}
-#logo{
-  position: absolute;
-  width: 300px;
-  height: 90px;
-  left: 925px;
-  top: 58px;
-  padding: 10px;
-  border-bottom: 1px solid white;
-}
-#diamond{
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 925px;
-  top: 190px;
-  border-right: 1px solid white;
-  padding-right: 6px ;
-}
-#sac{
-  position: absolute;
-  width: 100px;
-  height: 80px;
-  left: 1020px;
-  top: 190px;
-  font-size: 22px;
-  text-align: center;
-  color: #FFFFFF;
-  border-right: 1px solid  white;
-  padding-right: 8px ;
-  
-}
-#nit{
-  position: absolute;
-  width: 82.49px;
-  height: 86.61px;
-  left: 1135px;
-  top: 185px;
-}
-#about,#footer_about,#link-1 li,#link-2 li,#team{
-  font-family: 'Montserrat', sans-serif;
-}
-#link-1 li , #link-2 li{
-  padding-bottom: 12px ;
-}
+
+
+
+
+/* footer ends here */
 
 
 
@@ -535,7 +477,18 @@ a{
         html {
             font-size: 80%;
         }
+        
     }
-
+    @media(max-width: 426px){
+      .footer-lp .footer-content{
+        padding: 10px 0 20px 21.57px;
+        position: relative;
+      }
+      #section1 .swiper-div .swiper-shadow2 .wel-center{
+        font-size: 34px !important;
+    }
+    }
+   
+  
 /* ********** Friday Facts Ends ********** */
 
