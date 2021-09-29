@@ -322,9 +322,9 @@ color: #DDDDDD;
 }
   .footer-lp .footer-content p{
     font-family: Montserrat;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 200;
-    line-height: 14px;
+    line-height: 16px;
     color: rgba(255, 255, 255, 1);
     padding-top: 22.31px;
   }
@@ -376,7 +376,7 @@ color: #DDDDDD;
     background: rgba(255, 255, 255, 0.527);
     height: 0.5px;
   }
-.content-1 i.fa {
+.content-1 i.fa, .soci_wrap i.fa{
     display: inline-block !important;
     border-radius: 60px;
     border: .3px solid white;
@@ -484,6 +484,11 @@ color: #DDDDDD;
         padding: 10px 0 20px 21.57px;
         position: relative;
       }
+      #section1 .swiper-div .swiper-shadow2 .wel-center{
+        font-size: 34px !important;
     }
+    }
+   
+  
 /* ********** Friday Facts Ends ********** */
 
