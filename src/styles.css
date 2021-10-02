@@ -208,101 +208,28 @@ pointer-events: none;
     margin-left: 50px;
 }
 
-.people{
-  position: absolute;
-width: 566.44px;
-height: 465px;
-left: 100.6px;
-top: 839px;
 
-background: url(image.png);
-}
 
-/* .vector1{
-  position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
 
-background: #FFFFFF;
-} */
 
-#section3 .container-fluid{
-  position: absolute;
-width: 1542.5px;
-height: 828.59px;
-left: 1341.5px;
-top: 1240px;
-  background-color: #FFFFFF;
-}
 
-#section3 .mission-class{
-  position: absolute;
-width: 1642.5px;
-height: 0px;
-left:0px;
-top: 1240px;
-/* background: linear-gradient(274.76deg, #2D3E50 46.5%, rgba(45, 62, 80, 0.6) 97.08%);
-transform: matrix(-1, 0, 0, 1, 0, 0); */
-background-color: #FFFFFF;
-}
 
-#section3 .curveonheader{
-  width: 1642px;
-  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-}
 
-#section3 .mission-class{
-  background: linear-gradient(274.76deg, #2D3E50 46.5%, rgba(45, 62, 80, 0.6) 97.08%);
 
-}
-#section3 .mission-image{
-  position: absolute;
-  width: 1442.5px;
-  height: 828.59px;
-  left: 53.5px;
-  top: 433px;
-  
-  background: url(image.png);
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
 
-#section3 .wel-left{
-  position: absolute;
-width: 488px;
-height: 59px;
-left: 100px;
-top: 1560px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 59px;
-/* identical to box height */
 
-text-align: justify;
-  color: #38c4aa !important;
-}
 
-#section3 .heading-left{
-  position: absolute;
-width: 688px;
-height: 248px;
-left: 100px;
-top: 1693px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
 
-color: #DDDDDD;
-}
+
+
+
+
+
 
 /* ***************footer starts here*************** */
+
 
 /* footer starts here */
 .footer-lp{
@@ -397,76 +324,17 @@ color: #DDDDDD;
 }
 
 
-
-
 /* footer ends here */
 
 
 
 
-/* ********** Friday Facts Starts ********** */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
-   .FridayFacts {
-        height: 100vh;
-        /* height: auto; */
-        width: 100%;
-        background: rgba(45, 62, 80, 0.85);
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .vector2 {
-        position: absolute;
-        width: 100%;
-        top: 0%;
-        filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.7));
-        transform: rotate(180deg);
-    }
 
-    .vector1 {
-        position: absolute;
-        width: 100%;
-        bottom: 0%;
-    }
 
-    .bgImg {
-        position: absolute;
-        height: 100vh;
-        /* height: auto; */
-        width: 100%;
-        top: 0%;
-        z-index: -1;
-    }
-
-    .FridayFacts .content {
-        position: absolute;
-        text-align: center;
-    }
-
-    .FridayFacts .content h1 {
-        font-weight: 600;
-        font-size: 2.6rem;
-        color: #1EE7C3;
-    }
-
-    .FridayFacts .content h2 {
-        font-size: 1.8rem;
-        font-weight: 500;
-        line-height: 40px;
-        color: #fff;
-        margin-bottom: 3rem;
-    }
-
-    .FridayFacts .content p {
-        font-size: 1.4rem;
-        text-align: justify;
-        color: #DDDDDD;
-    }
 
 
 
@@ -489,6 +357,4 @@ color: #DDDDDD;
     }
     }
    
-  
-/* ********** Friday Facts Ends ********** */
-
+ 
