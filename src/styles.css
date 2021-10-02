@@ -292,7 +292,7 @@ pointer-events: none;
 
 .section-6{
   background-color: #fcfcfc;
-  padding-top: 60px !important;
+  /* padding-top: 60px !important; */
   padding-bottom: 120px !important;
 }
 
@@ -482,7 +482,75 @@ font-weight: 800;
         position: relative;
       }
       #section1 .swiper-div .swiper-shadow2 .wel-center{
-        font-size: 34px !important;
+        font-size: 24px !important;
+    }
+    .section-2 p{
+      font-size: 18px;
+      line-height:20px;
+      padding-top: 20px;
+    }
+    .section-3{
+      background: linear-gradient( 83.61deg, #2D3E50 45.3%, rgb(45 62 80 / 86%) 96.35%), url(../assets/taj.png);
+    }
+    .section-3 h2, .section-4 h2{
+      font-size: 28px;
+    }
+    .section-3 p{
+      padding-bottom: 50px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .svg-vector1{
+      margin-top: -1px;
+    }
+    #section1 .swiper-div .curveonheader {
+      bottom: -1.5px;
+    }   
+    .svg-vector5{
+      margin-bottom: -1px;
+    } 
+    .section-6 h2{
+      margin-top: 30px;
+    }
+    .sec6-row{
+      padding-top: 0 !important;
+    }
+    .message-card .lower-card .profile-description h4{
+      font-size: 16px !important;
+    }
+    .message-card .lower-card .profile-description p{
+      font-size: 12px;
+    }
+    .message-card .lower-card .profile-icon {
+      height: 50px;
+      width: 50px !important;
+    }
+    .profile-description{
+      padding-top: 8px !important;
+    }
+    #section1 .swiper-div .swiper-shadow2 .heading-center {
+      font-size: 25px;
+    }
+    .swiper-button-next, .swiper-button-prev, #section1 .swiper-div .swiper-shadow2 h3{
+      margin-top: 0 !important;
+      line-height: 14px;
+    }
+    #section1 .swiper-div, #section1 {
+      height: 270px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      display: none;
+    }
+    .heading-center{
+      line-height: 14px !important;
+    }
+    .footer-lp{
+      padding-top: 60px;
+    }
+    .img-bg{
+      height: 300px !important;
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
     }
     }
    
