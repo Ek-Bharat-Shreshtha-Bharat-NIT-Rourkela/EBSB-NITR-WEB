@@ -139,6 +139,7 @@
 .sec3 {
    overflow-x: hidden !important;
     background: #f5f5f5 !important;
+    overflow-y: hidden !important;
 }
 #section1 .swiper-div .swiper-shadow2 .wel-center{
     color: #1EE7C3;

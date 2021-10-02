@@ -31,3 +31,13 @@ var typed = new Typed('#typed', {
   showCursor: false,
   loop: true,
 });
+
+
+/////////////// AOS
+
+AOS.init({
+  offset: 200,
+  duration: 900,
+  easing: 'ease',
+  once: true,
+});
