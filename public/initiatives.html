@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+  <script>
+		window.onload=function(){
+			document.getElementById('loader').style.display="none";
+			document.getElementById('content-preloader').style.display="block";
+		};
+	</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -61,6 +67,14 @@
 </head>
 
 <body class="bg-white p-0">
+  <div id="loader" class="bg-dark"> 
+    <div id="followingBallsG" style="display: block;">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+  </div>
+</div>
+<div id="content-preloader">
   <!-- section 1 starts here -->
 
   <section id="section1" class="container-fluid">
@@ -81,7 +95,7 @@
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href=""><img src="../assets/logo.png" alt="" height="61" width="209"></a>
+      <a class="navbar-brand" href=""><img src="../assets/Logo.png" alt="" height="61" width="209"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLink"
         aria-controls="navbarLink" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -361,7 +375,7 @@ Our “Know the States” train travels all over India and reaches its new desti
     </div>
 
 </footer>
-
+</div>
 
 
 
