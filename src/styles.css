@@ -214,7 +214,7 @@ transform:scale(1);
     z-index: 9;
 }
 #section1 .swiper-div .swiper-shadow1{
-    background: rgba(45, 62, 80, 0.85);
+    background: #1a2735d9;
 }
 #section1 .swiper-div .swiper-shadow2 .heading-center{
     font-family: Roboto;
