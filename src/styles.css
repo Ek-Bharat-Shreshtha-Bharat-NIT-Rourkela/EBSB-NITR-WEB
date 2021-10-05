@@ -559,7 +559,12 @@ font-weight: 800;
       padding-top: 20px;
     }
     .section-3{
-      background: linear-gradient( 83.61deg, #2D3E50 45.3%, rgb(45 62 80 / 86%) 96.35%), url(../assets/taj.png);
+      background: linear-gradient( 83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/taj.png);
+      background-attachment: fixed;
+    }
+    .section-5{
+      background: linear-gradient( 83.61deg, #2d3e50ef 45.3%, #2d3e50ef 45.3%), url(../assets/facts.png);
+      background-attachment: fixed;
     }
     .section-3 h2, .section-4 h2{
       font-size: 28px;
