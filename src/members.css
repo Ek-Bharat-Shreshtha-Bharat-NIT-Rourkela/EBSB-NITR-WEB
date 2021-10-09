@@ -47,18 +47,18 @@
    margin: 90px auto;
    cursor: pointer;
    width: 255px;
-   height: 317px;
+   height: 357px;
    transform: scale(0.9);
 }
 .card-img{
-   height: 188px;
+   height: 238px;
    width: 100%;
    overflow: hidden;
    position: relative;
 }
 .cover-grad{
    width: 100%;
-   height: 188px;
+   height: 238px;
    position: absolute;
    top:0;
    left: 0;
@@ -67,8 +67,8 @@
 }
 .profile-card-4 img {
    transition: all 0.25s linear;
-   height: 188px;
-   /* width: 100%; */
+   /* height: 188px; */
+   width: 100%;
    transform: scale(1.1);
 }
 .profile-card-4:hover img {
