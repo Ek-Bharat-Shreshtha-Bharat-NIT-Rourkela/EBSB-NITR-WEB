@@ -1,0 +1,16 @@
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.social-box {
+    width: 340px;
+    margin: 20px;
+}
+
+.twitter{
+    height: 500px;
+    overflow: scroll;
+}
