@@ -34,12 +34,15 @@
     object-position: center bottom;
 }
 .section2 .img-bg{
-    background-image: url("../assets/kts.png");
+    background-image: url("../assets/ff.png");
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
     border-radius: 20px;
+}
+.sec1 .img-bg{
+    background-image: url("../assets/kts.png");
 }
 .section2 h2{
     position: relative;
