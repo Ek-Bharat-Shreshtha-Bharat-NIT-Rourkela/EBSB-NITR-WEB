@@ -41,3 +41,4 @@ AOS.init({
   easing: 'ease',
   once: true,
 });
+

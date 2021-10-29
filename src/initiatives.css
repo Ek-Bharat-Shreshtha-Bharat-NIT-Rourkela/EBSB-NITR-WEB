@@ -41,6 +41,9 @@
     width: 100%;
     border-radius: 20px;
 }
+.section2.codec .img-bg{
+    background-image: url("../assets/codec.jpeg") !important;
+}
 .sec1 .img-bg{
     background-image: url("../assets/kts.png");
 }

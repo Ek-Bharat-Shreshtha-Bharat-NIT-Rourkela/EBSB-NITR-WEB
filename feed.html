@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EBSB NITR Instafeed</title>
+	<style type="text/css">
+		
+		a img{ 
+			width: 100%;
+    		/* padding: 3px; */
+		}
+       
+	</style>
+</head>
+<body>
+    	<div id="instafeed-container"></div>
+
+
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    	resolution: 'low_resolution',
+		accessToken: 'IGQVJWZAFZAocU1ydGp6T2FGbkxOU2wzMW9xOXQ5MnB3U0xaaGVVRlE1dmlUYnpORVM4MXRPUWo5dURaeWM5ckp1UEc4X1haSWN0eEN6R1FGZAkwxNlJyWktfVE1tQkRma1ZAMMHJZAamI2aHp4dEFncWtZAbgZDZD'
+	});
+	userFeed.run();
+	</script>
+</body>
+</html>
