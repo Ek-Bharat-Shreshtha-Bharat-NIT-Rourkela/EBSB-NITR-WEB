@@ -628,4 +628,8 @@ font-weight: 800;
     }
     }
    
- 
+ .section-4 .fas, .section-4 .fab{
+  font-size: 3em !important;
+  padding-bottom: 10px;
+  color: #24323fee;
+ }
